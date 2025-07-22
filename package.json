@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,10 +12,6 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "next": "15.4.2"
-  },
-  "scripts": {
-  "dev": "next dev",
-  "build": "next build && next export"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -29,4 +25,3 @@
     "@eslint/eslintrc": "^3"
   }
 }
-
