@@ -7,7 +7,7 @@ export default function Home() {
           <img src="/KEMENHUT.png" alt="Logo Kemenhut" className="w-16 h-16 rounded-full border-2 border-green-600 bg-white p-1" />
           <div>
             <h1 className="text-2xl font-bold text-green-700">Dashboard BPHL 8 Surabaya</h1>
-            <p className="text-sm text-green-900 mt-1">Monitoring & Tools</p>
+            <p className="text-sm text-green-900 mt-1">Monitoring &amp; Tools</p>
           </div>
         </div>
         <ul className="space-y-4">
@@ -17,18 +17,24 @@ export default function Home() {
             </a>
           </li>
           <li>
-            <a href="https://calc-hhbk.pages.dev" className="block py-3 px-4 rounded-lg bg-yellow-100 text-yellow-800 font-medium hover:bg-yellow-200 transition">
-              🧮 Kalkulator HHBK
-            </a>
-          </li>
-          <li>
             <a href="https://calc-psdh-dr.pages.dev" className="block py-3 px-4 rounded-lg bg-blue-100 text-blue-800 font-medium hover:bg-blue-200 transition">
               💼 Kalkulator PSDH-DR
             </a>
           </li>
           <li>
+            <a href="https://calc-hhbk.pages.dev" className="block py-3 px-4 rounded-lg bg-yellow-100 text-yellow-800 font-medium hover:bg-yellow-200 transition">
+              🧮 Kalkulator HHBK
+            </a>
+          </li>
+          <li>
             <a href="https://calc-upjl.pages.dev" className="block py-3 px-4 rounded-lg bg-teal-100 text-teal-800 font-medium hover:bg-teal-200 transition">
               ♻️ Kalkulator UPJL
+            </a>
+          </li>
+          {/* === Tambahan Slot Kalkulator Lelang KG === */}
+          <li>
+            <a href="https://lelang-kg.pages.dev" className="block py-3 px-4 rounded-lg bg-orange-100 text-orange-800 font-medium hover:bg-orange-200 transition">
+              🪵 Kalkulator Lelang KG
             </a>
           </li>
         </ul>
