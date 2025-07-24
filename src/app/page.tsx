@@ -28,12 +28,12 @@ export default function Home() {
           </li>
                   <li>
             <a href="https://calc-psdh-dr.pages.dev" className="block py-3 px-4 rounded-lg bg-blue-100 text-blue-800 font-medium hover:bg-blue-200 transition">
-              💼 Kalkulator PSDH-DR + DENDA
+              💼 Kalkulator PSDH-DR + DENDA KAYU BULAT
             </a>
           </li>
           <li>
             <a href="https://lelang-kg.pages.dev" className="block py-3 px-4 rounded-lg bg-orange-100 text-orange-800 font-medium hover:bg-orange-200 transition">
-              🪵 Kalkulator Lelang KG
+              🪵 Kalkulator PSDH-DR + LELANG KAYU GERGAJIAN
             </a>
           </li>
         </ul>
