@@ -17,12 +17,7 @@ export default function Home() {
             </a>
           </li>
           <li>
-            <a href="https://calc-psdh-dr.pages.dev" className="block py-3 px-4 rounded-lg bg-blue-100 text-blue-800 font-medium hover:bg-blue-200 transition">
-              💼 Kalkulator PSDH-DR
-            </a>
-          </li>
-          <li>
-            <a href="https://calc-hhbk.pages.dev" className="block py-3 px-4 rounded-lg bg-yellow-100 text-yellow-800 font-medium hover:bg-yellow-200 transition">
+                 <a href="https://calc-hhbk.pages.dev" className="block py-3 px-4 rounded-lg bg-yellow-100 text-yellow-800 font-medium hover:bg-yellow-200 transition">
               🧮 Kalkulator HHBK
             </a>
           </li>
@@ -31,7 +26,11 @@ export default function Home() {
               ♻️ Kalkulator UPJL
             </a>
           </li>
-          {/* === Tambahan Slot Kalkulator Lelang KG === */}
+                  <li>
+            <a href="https://calc-psdh-dr.pages.dev" className="block py-3 px-4 rounded-lg bg-blue-100 text-blue-800 font-medium hover:bg-blue-200 transition">
+              💼 Kalkulator PSDH-DR + DENDA
+            </a>
+          </li>
           <li>
             <a href="https://lelang-kg.pages.dev" className="block py-3 px-4 rounded-lg bg-orange-100 text-orange-800 font-medium hover:bg-orange-200 transition">
               🪵 Kalkulator Lelang KG
