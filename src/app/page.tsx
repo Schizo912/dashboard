@@ -13,7 +13,7 @@ export default function Home() {
         <ul className="space-y-4">
           <li>
             <a href="https://bphl8.pages.dev" className="block py-3 px-4 rounded-lg bg-green-100 text-green-800 font-medium hover:bg-green-200 transition">
-              🌳 Peta Interaktif (Map)
+              🌳 SEMAR 8 (MAP)
             </a>
           </li>
           <li>
