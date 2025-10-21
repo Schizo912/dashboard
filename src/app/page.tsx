@@ -12,7 +12,7 @@ export default function Home() {
         </div>
         <ul className="space-y-4">
           <li>
-            <a href="https://bphl8.pages.dev" className="block py-3 px-4 rounded-lg bg-green-100 text-green-800 font-medium hover:bg-green-200 transition">
+            <a href="https://dev-map.pages.dev" className="block py-3 px-4 rounded-lg bg-green-100 text-green-800 font-medium hover:bg-green-200 transition">
               🌳 SEMAR 8 (MAP)
             </a>
           </li>
